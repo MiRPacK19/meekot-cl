@@ -13,34 +13,34 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar">
                 <p class="type-label-md" style="color: #aaa">
-                    Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
+                    Копия Extreme Demon Roulette от <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
                 </p>
                 <form class="options">
                     <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Main List</label>
+                        <label for="main">Основной лист</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Extended List</label>
+                        <label for="extended">Удлиненный лист</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
-                    The roulette saves automatically.
+                    Эта рулетка сохраняется автоматически.
                 </p>
                 <form class="save">
-                    <p>Manual Load/Save</p>
+                    <p>Ручное сохранение/загрузка</p>
                     <div class="btns">
-                        <Btn @click.native.prevent="onImport">Import</Btn>
-                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Export</Btn>
+                        <Btn @click.native.prevent="onImport">Импортировать</Btn>
+                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Экспортировать</Btn>
                     </div>
                 </form>
             </div>
             <section class="levels-container">
                 <div class="levels">
                     <template v-if="levels.length > 0">
-                        <!-- Completed Levels -->
+                        <!-- Пройденые уровни -->
                         <div class="level" v-for="(level, i) in levels.slice(0, progression.length)">
                             <a :href="level.video" class="video">
                                 <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="">
@@ -51,7 +51,7 @@ export default {
                                 <p style="color: #00b54b; font-weight: 700">{{ progression[i] }}%</p>
                             </div>
                         </div>
-                        <!-- Current Level -->
+                        <!-- Текущий уровень -->
                         <div class="level" v-if="!hasCompleted">
                             <a :href="currentLevel.video" target="_blank" class="video">
                                 <img :src="getThumbnailFromId(getYoutubeIdFromUrl(currentLevel.video))" alt="">
@@ -67,11 +67,11 @@ export default {
                                 <Btn @click.native.prevent="onGiveUp" style="background-color: #e91e63;">Give Up</Btn>
                             </form>
                         </div>
-                        <!-- Results -->
+                        <!-- Результаты -->
                         <div v-if="givenUp || hasCompleted" class="results">
-                            <h1>Results</h1>
-                            <p>Number of levels: {{ progression.length }}</p>
-                            <p>Highest percent: {{ currentPercentage }}%</p>
+                            <h1>Результаты</h1>
+                            <p>Количество уровней: {{ progression.length }}</p>
+                            <p>Самый высокий процент: {{ currentPercentage }}%</p>
                             <Btn v-if="currentPercentage < 99 && !hasCompleted" @click.native.prevent="showRemaining = true">Show remaining levels</Btn>
                         </div>
                         <!-- Remaining Levels -->
