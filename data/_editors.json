@@ -3,5 +3,10 @@
         "role": "owner",
         "name": "MiRPacK19",
         "link": "https://www.youtube.com/@mirpack19"
-    }
+    }, 
+	{
+        "role": "admin",
+        "name": "SerVax",
+        "link": "https://t.me/GDKSerVax"
+	} 
 ]
