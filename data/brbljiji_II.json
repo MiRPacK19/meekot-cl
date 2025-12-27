@@ -8,5 +8,23 @@
     "percentToQualify": "100",
     "password": "Тайминги",
     "records": [
+        {
+            "user": "NURBEK555",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "podpivasnik514",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "Dash1kk",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
