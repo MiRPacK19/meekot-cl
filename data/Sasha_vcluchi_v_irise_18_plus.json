@@ -1,6 +1,6 @@
 {
-    "id": 123,
-    "name": "Sasha_vcluchi_v_irise_18_plus",
+    "id": 268,
+    "name": "Sasha vcluchi v. irise 18 plus",
     "author": "ZPT",
     "creators": [],
     "verifier": "ZPT",
@@ -8,5 +8,23 @@
     "percentToQualify": "100",
     "password": "Волна, Тайминги",
     "records": [
+        {
+            "user": "MytH1C0",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "Eleven",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
