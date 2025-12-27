@@ -1,5 +1,5 @@
 {
-    "id": 123,
+    "id": 298,
     "name": "tsc old",
     "author": "Sweater",
     "creators": ["NewGen"],
@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Волна",
     "records": [
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
