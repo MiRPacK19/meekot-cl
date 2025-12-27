@@ -25,8 +25,8 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
-                            <p v-else class="type-label-lg">Legacy</p>
+                            <p v-if="i + 1 <= 30" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-else class="type-label-lg">Легаси</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
                             <button @click="selected = i">
@@ -51,14 +51,14 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">Скиллсеты</div>
+                            <p>{{ level.password || '' }}</p>
                         </li>
                     </ul>
-                    <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
-                    <p v-else>This level does not accept new records.</p>
+                    <h2>Прохождения</h2>
+                    <p v-if="selected + 1 <= 0"><strong>{{ level.percentToQualify }}%</strong> или больше для добавления</p>
+                    <p v-else-if="selected +1 <= 0"><strong>100%</strong> или больше для добавления</p>
+                    <p v-else>Этот уровень принимает новые прохождения.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
@@ -71,7 +71,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}Hz</p>
+                                <p>{{ record.hz }}ФПС</p>
                             </td>
                         </tr>
                     </table>
@@ -98,30 +98,27 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>Требования для прохождения</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Прохождение без использования читов (смотри https://demonlist.org/guidelines для справки) 
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Пройден уровень, указаный в листе - проверьте ID перед отправкой прохождения
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        Иметь звук тапов/кликов или мод для показания инпутов (Show Taps для Eclipse на мобильном, мод Inputs Viewer для любых устройств) 
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        Если не включен Cheat Indicator, то игрок должен коснуться конечной стены и показать его на эндскрине
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        Не использовать секретные пути
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        Не использовать модификацированые версии уровня (StartPos копии без изменения геймплея разрешены) 
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        Мы принимаем прохождения для уровней в Легаси, но они не дадут очков
                     </p>
                 </div>
             </div>
