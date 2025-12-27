@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Кораблик, Куб, Тайминги",
     "records": [
+        {
+            "user": "ZPT",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
