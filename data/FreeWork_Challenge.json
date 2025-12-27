@@ -1,5 +1,5 @@
 {
-    "id": 123,
+    "id": 264,
     "name": "FreeWork Challenge",
     "author": "DinoRage2",
     "creators": ["DinoRage2"],
@@ -8,5 +8,23 @@
     "percentToQualify": "100",
     "password": "Мемори, Тайминги",
     "records": [
+        {
+            "user": "DinoRage2",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }, 
+        {
+            "user": "Dash1kk",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
