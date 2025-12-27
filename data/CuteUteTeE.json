@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Волна, Спам, Точность",
     "records": [
+        {
+            "user": "npoctou_gamer",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
