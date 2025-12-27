@@ -1,5 +1,5 @@
 {
-    "id": 123,
+    "id": 475,
     "name": "MoondChall",
     "author": "DinoRage2",
     "creators": ["DinoRage2"],
@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Робот, Тайминги",
     "records": [
+        {
+            "user": "SWiRLYgmd",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }, 
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
