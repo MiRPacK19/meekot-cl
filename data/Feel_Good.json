@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Кораблик, Тайминги",
     "records": [
+        {
+            "user": "Sasha1113",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "ZPT",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }
     ]
 }
