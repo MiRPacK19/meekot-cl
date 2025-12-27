@@ -1,5 +1,5 @@
 {
-    "id": 123,
+    "id": 610,
     "name": "podpivasnik nightmare",
     "author": "Eleven",
     "creators": [],
@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Волна, Скорость",
     "records": [
+        {
+            "user": "npoctou_gamer",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
