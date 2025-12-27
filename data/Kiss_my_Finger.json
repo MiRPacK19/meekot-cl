@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Волна",
     "records": [
+        {
+            "user": "NURBEK555",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }, 
+        {
+            "user": "Sweater",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }
     ]
 }
