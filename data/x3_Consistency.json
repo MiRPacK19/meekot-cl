@@ -1,5 +1,5 @@
 {
-    "id": 123,
+    "id": 802,
     "name": "x3 Consistency",
     "author": "TheMeeKot",
     "creators": [],
@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Волна, Консистентси",
     "records": [
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
