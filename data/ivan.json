@@ -1,6 +1,6 @@
 {
-    "id": 123,
-    "name": "ivan",
+    "id": 653,
+    "name": "iwan",
     "author": "Eleven",
     "creators": ["Eleven, Teno"],
     "verifier": "Eleven",
@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Тайминги, Овералл",
     "records": [
+        {
+            "user": "npoctou_gamer",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
