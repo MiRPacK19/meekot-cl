@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Овералл",
     "records": [
+        {
+            "user": "ZPT",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }
     ]
 }
