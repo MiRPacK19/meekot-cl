@@ -1,5 +1,5 @@
 {
-    "id": 123,
+    "id": 305,
     "name": "Sasha ne vcluchil v irise 18 plus",
     "author": "ZPT",
     "creators": [],
@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Волна, Тайминги",
     "records": [
+        {
+            "user": "npoctou_gamer",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        },
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
