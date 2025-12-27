@@ -1,5 +1,5 @@
 {
-    "id": 123,
+    "id": 287,
     "name": "Torment",
     "author": "AAA",
     "creators": [],
@@ -8,5 +8,29 @@
     "percentToQualify": "100",
     "password": "Волна",
     "records": [
+        {
+            "user": "Sweater",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }, 
+        {
+            "user": "npoctou_gamer",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }, 
+        {
+            "user": "TheMeeKot",
+            "link": "",
+            "percent": 100,
+            "hz": ""
+        }, 
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
