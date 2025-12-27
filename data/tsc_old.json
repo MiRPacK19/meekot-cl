@@ -1,0 +1,12 @@
+{
+    "id": 123,
+    "name": "tsc old",
+    "author": "Sweater",
+    "creators": ["NewGen"],
+    "verifier": "Sweater",
+    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+    "percentToQualify": "100",
+    "password": "Волна",
+    "records": [
+    ]
+}
