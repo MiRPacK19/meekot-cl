@@ -1,5 +1,5 @@
 {
-    "id": 123,
+    "id": 709,
     "name": "w1n 4 y0u chall",
     "author": "npoctougamer",
     "creators": ["EzzWin777"],
@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Волна, Скорость, Точность",
     "records": [
+        {
+            "user": "MiRPacK19",
+            "link": "",
+            "percent": 100,
+            "hz": "CBF"
+        }
     ]
 }
